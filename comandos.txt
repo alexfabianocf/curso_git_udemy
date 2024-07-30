@@ -6,7 +6,13 @@ git add - adicionar arquivos novos para o commit
     git add nome-do-arquivo.txt //por arquivo 
     git add . //todos os arquivos                
 
-git commit - leva as mudanças locais para o repositório
+git commit - indica/grava os arquivos para o git push
     git commit arquivo1.txt arquivo2.txt -m "Comitando arquivos individualmente. Arquivos adicionados pelo git add"
     git commit -a -m "Enviando todos os arquivos adiconados pelo git add"
+
+git push - envia os arquivos para repositório remoto
+    git push
+
+git pull - busca atualizações de arquivos no repositório
+    git pull
 
