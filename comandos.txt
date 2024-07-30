@@ -1,0 +1,3 @@
+git status - Ver status do git na pasta onde estão os arquivos
+
+git init - Inicializar/Criar repositório git
