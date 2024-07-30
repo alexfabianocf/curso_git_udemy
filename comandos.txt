@@ -19,3 +19,6 @@ git push - envia os arquivos para repositório remoto
 git pull - busca atualizações de arquivos no repositório
     git pull
 
+git clone - clone o repositório
+    git clone https://github.com/perfil_usuario/projeto.git
+
