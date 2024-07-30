@@ -4,7 +4,10 @@ git status - veririca status do git na pasta onde estão os arquivos
 
 git add - adicionar arquivos novos para o commit
     git add nome-do-arquivo.txt //por arquivo 
-    git add . //todos os arquivos                
+    git add . //todos os arquivos
+
+git rm - remove arquivo e não terá mais suas atualizações
+    git rm arquivo.txt //remove arquivo e não vai ser mais utilizado                
 
 git commit - indica/grava os arquivos para o git push
     git commit arquivo1.txt arquivo2.txt -m "Comitando arquivos individualmente. Arquivos adicionados pelo git add"
