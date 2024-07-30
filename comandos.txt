@@ -22,3 +22,8 @@ git pull - busca atualizações de arquivos no repositório
 git clone - clone o repositório
     git clone https://github.com/perfil_usuario/projeto.git
 
+git mv - move ou renomeia o arquivo
+    git mv arquivo.txt caminho_da_pasta/arquivo.txt
+    git mv caminho_da_pasta/arquivo.txt caminho_da_pasta/arquivo_a_renomear.txt
+
+
