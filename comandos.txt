@@ -1,3 +1,12 @@
-git status - Ver status do git na pasta onde estão os arquivos
-
 git init - Inicializar/Criar repositório git
+
+git status - veririca status do git na pasta onde estão os arquivos
+
+git add - adicionar arquivos novos para o commit
+    git add nome-do-arquivo.txt //por arquivo 
+    git add . //todos os arquivos                
+
+git commit - leva as mudanças locais para o repositório
+    git commit arquivo1.txt arquivo2.txt -m "Comitando arquivos individualmente. Arquivos adicionados pelo git add"
+    git commit -a -m "Enviando todos os arquivos adiconados pelo git add"
+
