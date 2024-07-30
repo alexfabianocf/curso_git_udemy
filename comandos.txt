@@ -1,3 +1,5 @@
+.gitigine - arquivo onde se configura os arquivos que não irão para o repositório
+
 git init - Inicializar/Criar repositório git
 
 git status - veririca status do git na pasta onde estão os arquivos
@@ -25,5 +27,11 @@ git clone - clone o repositório
 git mv - move ou renomeia o arquivo
     git mv arquivo.txt caminho_da_pasta/arquivo.txt
     git mv caminho_da_pasta/arquivo.txt caminho_da_pasta/arquivo_a_renomear.txt
+
+git ckeckout - pode ser retornado ao estado original ou anterior. Funciona anes do git add
+    git ckeckout arquivo.txt
+
+git reset - pode remover todas as mudanças. Voltar ao estado inicial. Cuidado. Funciona anes do git add
+    git reset --hard origin/master
 
 
