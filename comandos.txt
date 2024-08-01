@@ -34,4 +34,15 @@ git ckeckout - pode ser retornado ao estado original ou anterior. Funciona anes 
 git reset - pode remover todas as mudanças. Voltar ao estado inicial. Cuidado. Funciona anes do git add
     git reset --hard origin/master
 
+git branch  - separa a versões do projeto
+    Criar
+        git branch nome_branch
+    Deletar
+        git branch -d nome_branch
+    Alterar branch 
+        git checkout nome_branch
+    Alterar criando um novo branch
+        git checkout -b nome_branch
+    Unir branch
+        git merge nome_branch
 
