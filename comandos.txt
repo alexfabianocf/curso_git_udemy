@@ -50,7 +50,11 @@ git stash - reseta o branch de acordo com o repositorio
     git stash
 
     Recuperar stash
-    git stash list
-    git stash apply ID_DA_STASH
+        git stash list
+        git stash apply ID_DA_STASH
+    Limpar todas stash
+        git stash clear
+    Deletar stash
+        git stash drop ID_DA_STASH
 
     
