@@ -46,3 +46,11 @@ git branch  - separa a versões do projeto
     Unir branch como comando maerge
         git merge nome_branch
 
+git stash - reseta o branch de acordo com o repositorio
+    git stash
+
+    Recuperar stash
+    git stash list
+    git stash apply ID_DA_STASH
+
+    
