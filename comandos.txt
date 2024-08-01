@@ -58,4 +58,5 @@ git stash - reseta o branch de acordo com o repositorio
         git stash drop ID_DA_STASH
 
 git tag - criar marcos no repositorio. Estagios no desenvolvimento
-    git tag -a nome_tag -m "mensagem"
+    Crinado tag
+        git tag -a nome_tag -m "mensagem"
